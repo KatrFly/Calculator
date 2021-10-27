@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#omtrek,
+#screen {
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+}
+
+#omtrek {
+    background-color: green;
+    width: 400px;
+    height: 560px;
+    padding-top: 35px;
+    margin: 8px;
+    background-color: lightgrey;
+}
+
+#screen {
+    background-color: grey;
+    height: 90px;
+    margin: 8px;
+    font-size: 72px;
+    text-align: right;
+}
+
+.keys {
+    background-color: hotpink;
+    margin-top: 30px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: lightgrey;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+button {
+    width: 78px;
+    height: 84px;
+    font-size: 38px;
+}
+
+#reset {
+    font-size: 24px;
+}
